@@ -13,11 +13,15 @@
   },
   "keywords": [
     "toggle",
-    "toggleinput",
-    "easyswitch",
+    "toggle input",
+    "easy switch",
     "switch",
     "button",
-    "toggleswitch"
+    "toggle switch",
+    "expo",
+    "expotoggle",
+    "expo toggle",
+    "expo toggle switch"
   ],
   "author": "Muhammad Musaib <musaib@redarc.in>",
   "license": "MIT",
