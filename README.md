@@ -11,6 +11,17 @@
 </div>
 
 
+<p align="center" >
+  <kbd>
+    <img
+      src="https://i.imgur.com/TFqRrYs.gif"
+      title="Toggle Input Demo"
+    >
+  </kbd>
+  <br>
+  <em>Toggle Input Demo</em>
+</p>
+
 
 
 <h4>Customizable and <b>Easy</b> to use toggle switch.</h4>
@@ -98,6 +109,17 @@ const App = () => {
 
 };
 ```
+
+<p align="center" >
+  <kbd>
+    <img
+      src="https://i.imgur.com/6lzF8ux.gif"
+      title="Toggle Input Filled Demo"
+    >
+  </kbd>
+  <br>
+  <em>Toggle Input Filled Demo</em>
+</p>
 
 
 For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-toggle-input)
