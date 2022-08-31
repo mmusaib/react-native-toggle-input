@@ -1,6 +1,6 @@
 {
   "name": "react-native-toggle-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customized toggle button \u001b[D\u001b[Cinput for react native and expo\u001b[D\u001b[D\u001b[C\u001b[C",
   "main": "index.tsx",
   "types": "index.d.ts",
@@ -19,7 +19,7 @@
     "button",
     "toggleswitch"
   ],
-  "author": "Muhammad Musaib",
+  "author": "Muhammad Musaib <musaib@redarc.in>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/musaib999/react-native-toggle-input/issues"
