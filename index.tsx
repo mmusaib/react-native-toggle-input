@@ -29,8 +29,17 @@ interface ToggleProps  {
     /**
     * toggle status of the switch
     */
-    toggle: boolean
-
+    toggle: boolean,
+        
+    /**
+    * Function to call after the switch has been turned on
+    */
+    onTrue: () => void,
+    
+    /**
+    * Function to call after the switch has been turned off
+    */
+    onFalse: () => void,
 
      /**
     * Function to set the status of toggle switch which will be stored in your local state
@@ -40,7 +49,7 @@ interface ToggleProps  {
 }
 
 
-const Toggle: React.FC<ToggleProps> = ({color,size,filled,circleColor,toggle,setToggle}) => {
+const Toggle: React.FC<ToggleProps> = ({color,size,filled,circleColor,toggle,setToggle,onTrue,onFalse}) => {
     const _color = color ?? "#4C956C";
     const _circle = circleColor ?? _color;
     const _filled = filled ?? false;
@@ -65,7 +74,13 @@ const Toggle: React.FC<ToggleProps> = ({color,size,filled,circleColor,toggle,set
 
     return(
         <View>
-            <Pressable style={toggleContainerStyles()} onPress={() => setToggle(!toggle)}>
+            <Pressable 
+                style={toggleContainerStyles()} 
+                onPress={() => {
+                    (toggle) ? onFalse() : onTrue(); 
+                    setToggle(!toggle);
+                }}
+             >
                 <View style={toggleCircleStyles()}></View>
             </Pressable>
         </View>
