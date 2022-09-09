@@ -85,6 +85,8 @@ For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-togg
 | circleColor | String | Use the color you want to give to the circle inside swith (Required for filled switch)
 | toggle | boolean | Default value of the toggle switch (Required)
 | setToggle | Function | Pass the function that will be used to set toggle status (Required)
+| onTrue | Function | Pass the function that will executed after the switch has been turned on (Required)
+| onFalse | Function | Pass the function that will executed after the switch has been turned off (Required)
 
 
 # 😎 Advanced Usage
