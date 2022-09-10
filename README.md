@@ -8,10 +8,13 @@
 
 🟢 Customizable React Native Toggle Switch with easy to use props"
 
+<a href="https://twitter.com/_mmusaib" target="_blank">
+<img src="https://i.imgur.com/CAnbdwP.png" width="250" />
+</a>
 </div>
 
 
-<p align="center" >
+<p align="center">
   <kbd>
     <img
       src="https://i.imgur.com/TFqRrYs.gif"
