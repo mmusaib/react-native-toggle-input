@@ -1,7 +1,7 @@
 {
   "name": "react-native-toggle-input",
   "version": "1.0.3",
-  "description": "⭐ Customized toggle button input for React Native and Expo",
+  "description": "⭐ Customizable toggle button input for React Native and Expo",
   "main": "index.tsx",
   "types": "index.d.ts",
   "scripts": {
@@ -9,11 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musaib999/react-native-toggle-input.git"
+    "url": "git+https://github.com/mmusaib/react-native-toggle-input.git"
   },
   "keywords": [
     "toggle",
     "toggle input",
+    "react native toggle switch",
+    "react-native-toggle",
+    "react-native-toggle-switch",
+    "react-native-toggle-button",
     "easy switch",
     "switch",
     "button",
@@ -21,12 +25,16 @@
     "expo",
     "expotoggle",
     "expo toggle",
-    "expo toggle switch"
+    "expo toggle switch",
+    "react native easy toggle",
+    "react native toggle button",
+    "react native button",
+    "easy button"
   ],
   "author": "Muhammad Musaib <musaib@redarc.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/musaib999/react-native-toggle-input/issues"
+    "url": "https://github.com/mmusaib/react-native-toggle-input/issues"
   },
-  "homepage": "https://github.com/musaib999/react-native-toggle-input#readme"
+  "homepage": "https://github.com/mmusaib/react-native-toggle-input#readme"
 }
