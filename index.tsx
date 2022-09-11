@@ -56,8 +56,8 @@ const Toggle: React.FC<ToggleProps> = ({
     circleColor,
     toggle,
     setToggle,
-    onTrue = () => {},
-    onFalse = () => {}
+    onTrue: () => {},
+    onFalse: () => {}
 }) => {
     const _color = color ?? "#4C956C";
     const _circle = circleColor ?? _color;
