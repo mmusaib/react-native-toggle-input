@@ -34,12 +34,12 @@ interface ToggleProps  {
     /**
     * Function to call after the switch has been turned on
     */
-    onTrue: () => void,
+    onTrue?: () => void,
     
     /**
     * Function to call after the switch has been turned off
     */
-    onFalse: () => void,
+    onFalse?: () => void,
 
      /**
     * Function to set the status of toggle switch which will be stored in your local state
