@@ -28,7 +28,17 @@ export interface ToggleProps  {
     /**
     * toggle status of the switch
     */
-    toggle?: boolean
+    toggle?: boolean,
+
+    /**
+    * Function after switch on
+    */
+    onTrue?: () => void,
+
+     /**
+    * Function after switch on
+    */
+    onFalse?: () => void,
 
 
      /**

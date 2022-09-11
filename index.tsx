@@ -49,13 +49,20 @@ interface ToggleProps  {
 }
 
 
-const Toggle: React.FC<ToggleProps> = ({color,size,filled,circleColor,toggle,setToggle,onTrue,onFalse}) => {
+const Toggle: React.FC<ToggleProps> = ({
+    color,
+    size,
+    filled,
+    circleColor,
+    toggle,
+    setToggle,
+    onTrue = () => {},
+    onFalse = () => {}
+}) => {
     const _color = color ?? "#4C956C";
     const _circle = circleColor ?? _color;
     const _filled = filled ?? false;
     const _size = size ?? 25;
-    const _onTrue = onTrue ?? () => {};
-    const _onFalse = onFalse ?? () => {};
 
 
     function toggleContainerStyles(){
@@ -79,7 +86,7 @@ const Toggle: React.FC<ToggleProps> = ({color,size,filled,circleColor,toggle,set
             <Pressable 
                 style={toggleContainerStyles()} 
                 onPress={() => {
-                    (toggle) ? _onFalse() : _onTrue(); 
+                    (toggle) ? onFalse() : onTrue();
                     setToggle(!toggle);
                 }}
              >
