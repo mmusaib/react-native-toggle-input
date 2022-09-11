@@ -1,6 +1,6 @@
 {
   "name": "react-native-toggle-input",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "⭐ Customizable toggle button input for React Native and Expo",
   "main": "index.tsx",
   "types": "index.d.ts",
