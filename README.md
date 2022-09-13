@@ -127,7 +127,14 @@ const App = () => {
 </p>
 
 
+# ▶️ Watch Tutorial Video
+
+[![Watch video](https://i.imgur.com/3ovVT8T.png)](https://youtu.be/_MemajXfkMw&t=15s)
+
+
 For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-toggle-input)
+
+
 
 
 
