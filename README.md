@@ -1,4 +1,8 @@
+|                          | |  |   |   |
+| --------------------------------------- | -------- | ---------- |---------- |---------- |
+| <a href="https://www.npmjs.com/package/react-native-toggle-input">![NPM VERSION](https://img.shields.io/npm/v/react-native-toggle-input?style=for-the-badge)</a> | <a href="https://www.npmjs.com/package/react-native-toggle-input">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-toggle-input?color=%232CA215&label=WEEKLY%20DOWNLOADS&style=for-the-badge)</a> | <a href="https://github.com/mmusaib/react-native-toggle-input/stargazers">![GITHUB STAR](https://img.shields.io/github/stars/mmusaib/react-native-toggle-input?label=Give%20Us%20A%20Star&style=for-the-badge)</a> | <a href="https://www.youtube.com/channel/UCSwIR2KBHiqiProH3Me8IZQ">![YOUTUBE VIEWS](https://img.shields.io/youtube/channel/views/UCSwIR2KBHiqiProH3Me8IZQ?label=YOUTUBE%20VIEWS&style=for-the-badge)</a> | <a href="https://www.npmjs.com/package/react-native-toggle-input">![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-toggle-input?color=%232CA215&style=for-the-badge)</a>
 
+<br>
 
 <h1 align="center">
   🔛 React Native Custom Toggle Input
